@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+    
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="@android:color/black" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+        <Button
+	        android:id="@+id/debelyanov1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Да се завърнеш..."
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Тиха победа"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Пловдив"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Спи градът"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Черна песен"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Миг"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov7"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Помниш ли, помниш ли..."
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov8"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Един убит"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov9"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Сиротна песен"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/debelyanov10"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Аз искам да те помня все така..."
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+              
+     
+        
+        </LinearLayout>
+    </ScrollView>
+        
+  
+     
+   
+ <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button
+            android:id="@+id/button_1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:text="Назад"
+            android:onClick="onClick" 
+            android:textColor="@android:color/white"
+       		android:textColorHint="@android:color/background_light"/>
+
+   </LinearLayout>
+  </LinearLayout>

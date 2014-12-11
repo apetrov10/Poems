@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+    
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="@android:color/black" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+        <Button
+	        android:id="@+id/slaveykov1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Спи езерото"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Cis moll"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Ни лъх не дъхва над полени"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Самотен гроб в самотен кът"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Ралица"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Луд гидия"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov7"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Плакала е горчиво нощта..."
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov8"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Во стаичката пръска аромат..."
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov9"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Морна лятна нощ..."
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov10"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Псалом на поета"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov11"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Молитва"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov12"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="По жътва"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov13"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Цар Самуил"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+		<Button
+	        android:id="@+id/slaveykov14"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Над безкрайните полета..."
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+     
+        
+        </LinearLayout>
+    </ScrollView>
+        
+  
+     
+   
+ <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button
+            android:id="@+id/button_1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:text="Назад"
+            android:onClick="onClick" 
+            android:textColor="@android:color/white"
+       		android:textColorHint="@android:color/background_light"/>
+
+   </LinearLayout>
+  </LinearLayout>

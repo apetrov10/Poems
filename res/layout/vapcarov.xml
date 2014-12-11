@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+    
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="@android:color/black" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+        <Button
+	        android:id="@+id/vapcarov1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Ще строим завод"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/vapcarov2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Завод"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/vapcarov3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Песен за човека"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/vapcarov4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Писмо"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/vapcarov5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Вяра"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/vapcarov6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Прощално"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/vapcarov7"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Сън"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/vapcarov8"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="История"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        <Button
+	        android:id="@+id/vapcarov9"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Кино"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+              
+       
+        
+        </LinearLayout>
+    </ScrollView>
+        
+  
+     
+   
+ <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button
+            android:id="@+id/button_1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:text="Назад"
+            android:onClick="onClick" 
+            android:textColor="@android:color/white"
+       		android:textColorHint="@android:color/background_light"/>
+
+   </LinearLayout>
+  </LinearLayout>

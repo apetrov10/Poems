@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+    
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="@android:color/black" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+        <Button
+	        android:id="@+id/botev1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Майце си"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+              
+        <Button
+	        android:id="@+id/botev2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="На прощаване"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+
+        <Button
+	        android:id="@+id/botev3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Към брата си"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        <Button
+	        android:id="@+id/botev4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Елегия"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        <Button
+	        android:id="@+id/botev5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Делба"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        <Button
+	        android:id="@+id/botev6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="До моето първо либе"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        <Button
+	        android:id="@+id/botev7"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Хайдути"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        <Button
+	        android:id="@+id/botev8"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Борба"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        <Button
+	        android:id="@+id/botev9"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Хаджи Димитър"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        <Button
+	        android:id="@+id/botev10"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Моята молитва"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        <Button
+	        android:id="@+id/botev11"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Обесването на Васил Левски"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        <Button
+	        android:id="@+id/botev12"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="В механата"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white" />
+        
+        </LinearLayout>
+    </ScrollView>
+        
+  
+     
+   
+ <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button
+            android:id="@+id/button_1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:text="Назад"
+            android:onClick="onClick" 
+            android:textColor="@android:color/white"
+       		android:textColorHint="@android:color/background_light"/>
+
+   </LinearLayout>
+  </LinearLayout>

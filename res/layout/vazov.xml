@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+    
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="@android:color/black" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+        <Button
+	        android:id="@+id/vazov1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Радецки"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        
+        <Button
+	        android:id="@+id/vazov15"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Де е България?"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+         
+        <Button
+	        android:id="@+id/vazov2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Левски"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+          
+        <Button
+	        android:id="@+id/vazov3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Кочо"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+           
+        <Button
+	        android:id="@+id/vazov4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Паисий"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+            
+        <Button
+	        android:id="@+id/vazov5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Опълченците на Шипка"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+             
+        <Button
+	        android:id="@+id/vazov6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Отечество любезно, как хубаво си ти!"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        
+        <Button
+	        android:id="@+id/vazov7"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Възпоминания от Батак"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+         
+        <Button
+	        android:id="@+id/vazov8"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Новото гробище над Сливница"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+          
+        <Button
+	        android:id="@+id/vazov9"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="При Рилския манастир"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        
+        <Button
+	        android:id="@+id/vazov10"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Моите песни"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />  
+	              
+        <Button
+	        android:id="@+id/vazov11"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Елате ни вижте!"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />  
+	              
+        <Button
+	        android:id="@+id/vazov12"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Белоградчишките скали"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        
+        <Button
+	        android:id="@+id/vazov13"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Аз съм българче"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+        
+        <Button
+	        android:id="@+id/vazov14"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Българският език"
+	        android:onClick="onClick"
+	        android:textColor="@android:color/white"
+	        android:textColorHint="@android:color/background_light" />
+
+              
+       
+        </LinearLayout>
+    </ScrollView>
+        
+  
+     
+   
+ <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button
+            android:id="@+id/button_1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:text="Назад"
+            android:onClick="onClick" 
+            android:textColor="@android:color/white"
+       		android:textColorHint="@android:color/background_light"/>
+
+   </LinearLayout>
+  </LinearLayout>
